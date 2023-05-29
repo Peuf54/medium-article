@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-size: 24px; */
+}
+
+header {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1685361062717-61cad788e120?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80");
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding-bottom: 95px;
+}
+
+main {
+  width: 65%;
+  margin: 0 auto 35px auto;
+}
+
+footer {
+  width: 100%;
+
+  margin-top: 80px;
+  padding: 35px 0;
+}
+
+.header-title {
+  font-size: 4rem;
+}
+
+.prim-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.prim-color {
+  color: rgba(220, 220, 220, 1)
+}
+
+.header-subtitle {
+  font-size: 3rem;
+}
+
+.sec-font {
+  font-family: 'Lora', serif;
+}
+
+.sec-color {
+  color: rgba(180, 180, 180, 1)
+}
+
+.paragraph-div {
+  margin: 50px 15px;
+}
+
+.paragraph-title {
+  font-size: 1.8rem;
+  margin: 10px;
+}
+
+.paragraph {
+  margin: 10px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  font-size: 1.2rem;
+}
+
+.light {
+  font-weight: lighter;
+}
+
+.original-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+
+  padding: 3px;
+
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+
+  color: rgb(18, 99, 99);
+}
+
+.original-link:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+.footer-links-ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-links-li {
+  list-style-type: none;
+  font-size: 2rem;
+
+  color:rgb(12, 63, 63)
+}
+
+.footer-links-li:hover {
+  color:rgb(35, 175, 175)
+}
+
+@media (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+
+  .paragraph-div {
+    width: 95%;
+    margin: 30px 0;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  header > *{
+    background-color: rgba(0, 0, 0, .5);
+  }
+}
